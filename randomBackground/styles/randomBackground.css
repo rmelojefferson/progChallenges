@@ -1,0 +1,30 @@
+div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+input#colorName {
+	text-align: center;
+	font-family: Serif;
+	font-size: 20px;
+	width: 100px;
+	height: 25px;
+	border-radius: 50px;
+}
+
+input#colorPicker {
+	width: 50px;
+}
+
+input#btColor {
+	text-align: center;
+	font-family: Serif;
+	font-size: 20px;
+	width: 162px;
+	height: 31px;
+	border-radius: 50px;
+	background-color: #FFFFFF;
+}

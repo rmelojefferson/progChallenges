@@ -1,0 +1,23 @@
+img {
+	max-width: 100%;
+}
+pre {
+	font-size:1.2em;
+}
+.oculta {
+	display: none;
+}
+.exibe {
+	display: inline;
+}
+.coresCorinthians {
+	color: white;
+	background-color: black;
+}
+.coresSaoPaulo {
+	color: red;
+	background-color: black;
+}
+.coresPalmeiras {
+	color: green;
+}

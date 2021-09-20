@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel='stylesheet' href='./css/ex7_c.css'>
+		<title>Capítulo 7 - exercício c</title>
+	</head>
+
+	<body>
+		<img src='./img/ex7_c.svg' alt='my pet'>
+		<h1>Veterinária avenida</h1>
+		<p>Valor da vacina:
+			<input type='text' id='inValor' autofocus></p>
+		<p>Possui convênio:
+			<input type='radio' id='rbSim' name='convenio'>Sim
+			<input type='radio' id='rbNao' name='convenio'checked>Não</p>
+		<select id='temConvenio' class='oculta'>
+			<option value='amigoDosAnimais'>Amigo dos animais</option>
+			<option value='saudeAnimal'>Saúde Animal</option>
+		</select>
+		<p>
+			<input type='button' value='Calcular desconto' id='btCalcular'></p>
+		<h3 id='outDesconto'></h3>
+		<h3 id='outTotal'></h3>
+		<script src='./js/ex7_c.js'></script>
+	</body>
+</html>
+
+<!--	Exercício proposto para ser resolvido pelo leitor sem respostas.
+	Proposta:
+	Elaborar um programa para uma veterinária, o qual leia o preço de uma vacina e se o cliente possui ou não convênio. Caso possua algum convênio, exibir uma caixa de seleção com os convênios "Amigo dos animais" e "Saúde animal". O programa deve exibir o valor do desconto(10% sem convênio;20% para "Amigo dos animais";50% para "Saúde animal") e o valor a ser pago. Criar a função;
+	calcularDesconto() - que receba os parâmetros valor e taxa de desconto. Retornar o valor do desconto.
+-->
