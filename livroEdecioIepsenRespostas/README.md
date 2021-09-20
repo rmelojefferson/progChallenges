@@ -11,4 +11,5 @@
 
   
 
-![capalivroLepsen](/home/rmelojefferson/workspace/studies/livroEdecioIepsen/livroEdecioIepsenRespostas/capalivroLepsen.jpg)
+![capalivroLepsen](./capalivroLepsen.jpg)
+
