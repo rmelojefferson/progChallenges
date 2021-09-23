@@ -4,9 +4,6 @@ function showNumber(num) {
 	calculo += num;
 	document.getElementById("inCalc").value = calculo;
 }
-let zero = document.getElementById("number0");
-zero.addEventListener("click", number0);
-
 window.addEventListener("keydown", function (event){
 	switch(event.key) {
 		case "0":
