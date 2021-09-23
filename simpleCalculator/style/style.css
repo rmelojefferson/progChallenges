@@ -30,7 +30,8 @@ h1 {
 	margin: 10px;
 	width: 346px;
 	height: 80px;
-	font-size: 20px;
+	font-size: 30px;
+	text-align: right;
 }
 
 .numbers {
@@ -45,6 +46,20 @@ h1 {
 	background-color: #6C63FF;
 	color: #FFFFFF;
 }
+
+#number0 {
+	margin: 3px;
+	width: 170px;
+	height: 80px;
+	font-size: 30px;
+	border-radius:5px;
+}
+
+#number0:hover {
+	background-color: #6C63FF;
+	color: #FFFFFF;
+}
+
 
 img {
 	margin: 10px;
