@@ -4,6 +4,15 @@ function showNumber(num) {
 	calculo += num;
 	document.getElementById("inCalc").value = calculo;
 }
+
+let numbers = document.querySelectorAll(".numbers");
+numbers.forEach(function(number) {
+	number.addEventListener("click", function(num){
+		let value = num.target.dataset.num;
+		showNumber(value);
+	});
+});
+
 window.addEventListener("keydown", function (event){
 	switch(event.key) {
 		case "0":
@@ -48,5 +57,55 @@ window.addEventListener("keydown", function (event){
 		case ")":
 			showNumber(")");
 			break;
+		case "+":
+			showNumber("+");
+			break;
+		case "-":
+			showNumber("-");
+			break;
+		case "*":
+			showNumber("*");
+			break;
+		case "/":
+			showNumber("/");
+			break;
+		case "Enter":
+			result();
+			break;
+		case "Delete":
+			location.reload();
+			break;
 	}
+});
+function result() {
+	inCalc = document.getElementById("inCalc").value;
+	value = eval(inCalc);
+	calculo = [];
+	showNumber(value);
+}
+let equal = document.getElementById("equal");
+equal.addEventListener("click", result);
+
+let clean = document.getElementById("clean") 
+clean.addEventListener("click", function() {
+	location.reload();
+});
+
+let github = document.getElementById("github");
+github.addEventListener("mouseenter", function() {
+	github.src = "./img/githubWhite.png";
+});
+
+github.addEventListener("mouseout", function() {
+	github.src = "./img/githubPurple.png";
+});
+
+let linkedin = document.getElementById("linkedin");
+linkedin.addEventListener("mouseenter", function() {
+	linkedin.src = "./img/linkedinWhite.png";
+});
+
+
+linkedin.addEventListener("mouseout", function() {
+	linkedin.src = "./img/linkedinPurple.png";
 });
