@@ -1,10 +1,10 @@
-let calculo = "";
+let calculo = [];
 
 function showNumber(num) {
-	let inCalc = document.getElementById("inCalc");
 	calculo += num;
-	inCalc.value = calculo;
+	document.getElementById("inCalc").value = calculo;
 }
+
 let numbers = document.querySelectorAll(".numbers");
 numbers.forEach(function(number) {
 	number.addEventListener("click", function(num){
@@ -12,35 +12,6 @@ numbers.forEach(function(number) {
 		showNumber(value);
 	});
 });
-
-function result() {
-	let inCalc = document.getElementById("inCalc");
-	let value = eval(inCalc.value);
-
-	if(inCalc.value === "" || isNaN(value)) {
-		calculo = "";
-		inCalc.value = "";
-		return;
-	}
-	calculo = "";
-	showNumber(value);
-}
-let equal = document.getElementById("equal");
-equal.addEventListener("click", result);
-
-function backspace() {
-	let inCalc = document.getElementById("inCalc");
-	let calc = inCalc.value;
-	let calcString = calc.slice(0, calc.length -1);
-	calculo = "";
-	showNumber(calcString);
-}
-
-function clean() {
-	location.reload();
-}
-let btnClean = document.getElementById("clean") 
-btnClean.addEventListener("click", clean);
 
 window.addEventListener("keydown", function (event){
 	switch(event.key) {
@@ -101,14 +72,25 @@ window.addEventListener("keydown", function (event){
 		case "Enter":
 			result();
 			break;
-		case "Backspace":
-			backspace();
-			break;
 		case "Delete":
 			location.reload();
 			break;
 	}
 });
+function result() {
+	inCalc = document.getElementById("inCalc").value;
+	value = eval(inCalc);
+	calculo = [];
+	showNumber(value);
+}
+let equal = document.getElementById("equal");
+equal.addEventListener("click", result);
+
+let clean = document.getElementById("clean") 
+clean.addEventListener("click", function() {
+	location.reload();
+});
+
 let github = document.getElementById("github");
 github.addEventListener("mouseenter", function() {
 	github.src = "./img/githubWhite.png";
