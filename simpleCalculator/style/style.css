@@ -27,6 +27,8 @@ h1 {
 }
 
 #inCalc {
+	border: double 3px #6C63FF;
+	border-radius: 5px;
 	margin: 10px;
 	width: 346px;
 	height: 80px;
@@ -41,6 +43,8 @@ h1 {
 	height: 80px;
 	font-size: 30px;
 	border-radius:5px;
+	border: 0;
+	color: #6C63FF;
 }
 
 .numbers:hover {
@@ -54,11 +58,12 @@ h1 {
 	height: 80px;
 	font-size: 30px;
 	border-radius:5px;
+	background-color: #6C63FF;
+	color: #FFFFFF;
 }
 
 #number0:hover {
-	background-color: #6C63FF;
-	color: #FFFFFF;
+	background-color: #FF79C6;
 }
 
 
