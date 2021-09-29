@@ -1,4 +1,4 @@
-* {
+body {
 	margin: 0;
 	padding: 0;
 	background-color: #282A36;
@@ -6,8 +6,9 @@
 }
 
 h1 {
+	width: 356px;
 	font-family: Serif;
-	font-size: 35px;
+	font-size: 30px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -35,6 +36,7 @@ h1 {
 	font-size: 40px;
 	text-align: right;
 	color: #FFFFFF;
+	background-color: #282A36;
 }
 
 .numbers {
@@ -44,7 +46,9 @@ h1 {
 	font-size: 30px;
 	border-radius:5px;
 	border: 0;
+	background-color: #282A36;
 	color: #6C63FF;
+	cursor: pointer;
 }
 
 .numbers:hover {
@@ -60,14 +64,52 @@ h1 {
 	border-radius:5px;
 	background-color: #6C63FF;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 #number0:hover {
 	background-color: #FF79C6;
 }
 
-
 img {
 	margin: 10px;
 	margin-top: 20px;
+}
+
+#theme {
+	border-radius: 50px;
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+	color: #FFFF00;
+	font-size: 30px;
+	background-color: #282A36;
+	border: 0;
+	cursor: pointer;
+}
+
+#theme:hover {
+	transform: scale(1.5);
+}
+
+.light-mode {
+	background-color: #FFFFFF;
+}
+
+.light-mode .numbers {
+	background-color: #FFFFFF;
+}
+
+.light-mode #inCalc {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.light-mode .numbers:hover {
+	background-color: #6C63FF;
+	color: #000000;
+}
+
+.light-mode #theme {
+	background-color: #FFFFFF;
 }
