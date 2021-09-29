@@ -1,9 +1,9 @@
-let calculo = "";
+let calculator = "";
 
 function showNumber(num) {
 	let inCalc = document.getElementById("inCalc");
-	calculo += num;
-	inCalc.value = calculo;
+	calculator += num;
+	inCalc.value = calculator;
 }
 let numbers = document.querySelectorAll(".numbers");
 numbers.forEach(function(number) {
@@ -18,11 +18,11 @@ function result() {
 	let value = eval(inCalc.value);
 
 	if(inCalc.value === "" || isNaN(value)) {
-		calculo = "";
+		calculator = "";
 		inCalc.value = "";
 		return;
 	}
-	calculo = "";
+	calculator = "";
 	showNumber(value);
 }
 let equal = document.getElementById("equal");
@@ -32,7 +32,7 @@ function backspace() {
 	let inCalc = document.getElementById("inCalc");
 	let calc = inCalc.value;
 	let calcString = calc.slice(0, calc.length -1);
-	calculo = "";
+	calculator = "";
 	showNumber(calcString);
 }
 
@@ -109,13 +109,14 @@ window.addEventListener("keydown", function (event){
 			break;
 	}
 });
-let theme = document.getElementById("theme");
-theme.addEventListener("click", function () {
+function themeMode () {
 	let bodyTheme = document.body;
-	let lightmode = bodyTheme.classList.toggle("light-mode");
-	if(lightmode) {
+	let lightMode = bodyTheme.classList.toggle("lightMode");
+
+	if(lightMode) {
+		localStorage.setItem("theme", "lightTheme");
 		theme.style.color = "#000000";
-		theme.innerHTML = "&#9789";
+		theme.innerHTML = "&#127770;";
 		
 		github.addEventListener("mouseenter", function() {
 			github.src = "./img/githubBlack.png";
@@ -125,8 +126,9 @@ theme.addEventListener("click", function () {
 			linkedin.src = "./img/linkedinBlack.png";
 		});
 	} else {
+		localStorage.removeItem("theme");
 		theme.style.color = "#FFFF00";
-		theme.innerHTML = "&#9728";
+		theme.innerHTML = "&#127774;";
 		
 		github.addEventListener("mouseenter", function() {
 			github.src = "./img/githubWhite.png";
@@ -136,7 +138,10 @@ theme.addEventListener("click", function () {
 			linkedin.src = "./img/linkedinWhite.png";
 		});
 	}
-});
+}
+let theme = document.getElementById("theme");
+theme.addEventListener("click", themeMode);
+
 let github = document.getElementById("github");
 github.addEventListener("mouseenter", function() {
 	github.src = "./img/githubWhite.png";
@@ -154,3 +159,10 @@ linkedin.addEventListener("mouseenter", function() {
 linkedin.addEventListener("mouseout", function() {
 	linkedin.src = "./img/linkedinPurple.png";
 });
+
+function themeChoice() {
+	if(localStorage.getItem("theme")) {
+		themeMode();
+	}
+}
+themeChoice();
