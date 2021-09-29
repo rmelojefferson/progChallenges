@@ -109,6 +109,34 @@ window.addEventListener("keydown", function (event){
 			break;
 	}
 });
+let theme = document.getElementById("theme");
+theme.addEventListener("click", function () {
+	let bodyTheme = document.body;
+	let lightmode = bodyTheme.classList.toggle("light-mode");
+	if(lightmode) {
+		theme.style.color = "#000000";
+		theme.innerHTML = "&#9789";
+		
+		github.addEventListener("mouseenter", function() {
+			github.src = "./img/githubBlack.png";
+		});
+		
+		linkedin.addEventListener("mouseenter", function() {
+			linkedin.src = "./img/linkedinBlack.png";
+		});
+	} else {
+		theme.style.color = "#FFFF00";
+		theme.innerHTML = "&#9728";
+		
+		github.addEventListener("mouseenter", function() {
+			github.src = "./img/githubWhite.png";
+		});
+		
+		linkedin.addEventListener("mouseenter", function() {
+			linkedin.src = "./img/linkedinWhite.png";
+		});
+	}
+});
 let github = document.getElementById("github");
 github.addEventListener("mouseenter", function() {
 	github.src = "./img/githubWhite.png";
@@ -122,7 +150,6 @@ let linkedin = document.getElementById("linkedin");
 linkedin.addEventListener("mouseenter", function() {
 	linkedin.src = "./img/linkedinWhite.png";
 });
-
 
 linkedin.addEventListener("mouseout", function() {
 	linkedin.src = "./img/linkedinPurple.png";
