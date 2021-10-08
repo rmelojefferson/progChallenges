@@ -10,6 +10,6 @@
   - Projeto de calculadora com operações básicas
   - Ideia original extraída deste [link](https://jsbeginners.com/calculator-javascript-project/)
 
-- [livroLinguagemCRespostas](https://rmelojefferson.github.io/progChallenges/livroLinguageCCompletaDescomplicada/)
+- [livroLinguagemCRespostas](https://github.com/rmelojefferson/progChallenges/tree/main/livroLinguageCCompletaDescomplicada)
   - Respostas dos exercícios propostos no livro Linguagem C completa e descomplicada
 
