@@ -4,7 +4,7 @@
 
 - [livroEdecioIepsenRespostas](https://github.com/rmelojefferson/progChallenges/tree/main/livroEdecioIepsenRespostas)
   - Respostas dos exercícios propostos no livro Lógica de Programação e Algoritmos com JavasScript
-- [randomBackground](https://rmelojefferson.github.io/jsChallenges/randomBackground/) - Projeto para troca aleatória da cor de fundo do site
+- [randomBackground](https://rmelojefferson.github.io/progChallenges/randomBackground/) - Projeto para troca aleatória da cor de fundo do site
   - Ideia original estraída deste [link](https://vannilla-js-basic-project-1-background-color.netlify.app/)
 - [simpleCalculator](https://rmelojefferson.github.io/progChallenges/simpleCalculator/)
   - Projeto de calculadora com operações básicas
