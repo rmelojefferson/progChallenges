@@ -13,3 +13,6 @@
 - [livroLinguagemCRespostas](https://github.com/rmelojefferson/progChallenges/tree/main/livroLinguageCCompletaDescomplicada)
   - Respostas dos exercícios propostos no livro Linguagem C completa e descomplicada
 
+- [cursoProgramacaoCprofessorWagnerGaspar](https://github.com/rmelojefferson/progChallenges/tree/main/cursoProgramacaoCprofessorWagnerGaspar)
+  - Respostas dos exercícios propostos no curso - Curso de programação C completo
+
