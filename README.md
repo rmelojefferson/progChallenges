@@ -1,4 +1,4 @@
-## Mini projetos em JavaScript feitos para estudar a linguagem e outras habilidades de desenvolvimento
+## Mini projetos feitos para estudar as linguagens e outras habilidades de desenvolvimento
 
 ### Projetos propostos em livros ou em sites
 
