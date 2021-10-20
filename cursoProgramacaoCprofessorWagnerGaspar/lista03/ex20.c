@@ -4,7 +4,7 @@ int main() {
 	long double  grao = 1, total = 0;
 	int i;
 
-	for(i = 1; i <= 64; i++) {
+	for(i = 2; i <= 64; i++) {
 		grao *= 2;
 		total += grao;
 	}

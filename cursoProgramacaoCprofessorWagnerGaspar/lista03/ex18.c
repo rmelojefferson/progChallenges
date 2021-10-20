@@ -12,7 +12,7 @@ int main() {
 	for(i = 1; i <= total; i++) {
 		do {
 			getchar();
-			printf("\nSexo: ");
+			printf("\nSexo (Informe \'m\' ou \'f\'): ");
 			scanf("%c", &sexo);
 		} while(sexo != 'f' && sexo != 'm');
 		

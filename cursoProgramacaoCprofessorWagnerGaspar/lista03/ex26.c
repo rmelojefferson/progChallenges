@@ -6,7 +6,7 @@ int main() {
 	
 	do { 
 		do {
-			printf("Informe a primeira nota (0 - 10): ");
+			printf("\nInforme a primeira nota (0 - 10): ");
 			scanf("%f", &nota1);
 		} while(nota1 > 10 ||  nota1 < 0);
 		
@@ -15,9 +15,9 @@ int main() {
 			scanf("%f", &nota2);
 		} while(nota2 > 10 || nota2 < 0);
 		
-		printf("Média = %.2f\n", (nota1 + nota2)/2);
+		printf("\nMédia = %.2f\n", (nota1 + nota2)/2);
 		
-		printf("\n\nNovo cálculo?\n1 - Sim\n2 - Não\n");
+		printf("\nNovo cálculo?\n1 - Sim\n2 - Não\n");
 		scanf("%d", &opcao);
 		
 	} while(opcao != 2);

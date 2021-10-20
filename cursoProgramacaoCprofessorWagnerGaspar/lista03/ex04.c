@@ -7,8 +7,7 @@ int main() {
 		total += i;
 		soma++;
 	}
-	printf("Total: %d\n", total);
-	printf("Número de somas = %d\n", soma);
+	printf("Total: %d\nNúmero de somas = %d\n", total, soma);
 	return 0;
 }
 

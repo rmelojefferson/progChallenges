@@ -8,7 +8,7 @@ int main() {
 		chico += 0.02;
 		ze += 0.03;
 		anos++;
-	} while(chico > ze);
+	} while(chico >= ze);
 	printf("Levará %d anos para que o Zé fique maior que Chico\n", anos);
 
 	return 0;

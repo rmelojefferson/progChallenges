@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int num, i, total;
+	int num, i, total = 0;
 
 	do {
 		printf("Informe um número inteiro maior que zero: ");

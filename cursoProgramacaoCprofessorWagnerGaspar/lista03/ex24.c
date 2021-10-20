@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-	int cont, i = 1, j = 2;
+	int cont, i = 1, j = 3;
 	do {
-			j += 6;
+		j += 5;
 		for(cont = 1; cont <= 3; cont++) {
 			printf("I = %d J = %d\n", i, j-=1);
 		}
@@ -15,13 +15,13 @@ int main() {
 I=1 J=7
 I=1 J=6
 I=1 J=5
-I=3 J=10
 I=3 J=9
 I=3 J=8
-I=5 J=13
-I=5 J=12
+I=3 J=7
 I=5 J=11
+I=5 J=10
+I=5 J=9
 ...
-I=9 J=19
-I=9 J=18
-I=9 J=17*/
+I=9 J=15
+I=9 J=14
+I=9 J=13*/

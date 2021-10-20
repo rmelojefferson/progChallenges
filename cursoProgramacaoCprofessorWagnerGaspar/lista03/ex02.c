@@ -3,11 +3,15 @@
 int main() {
 	int password = 123456, userPass;
 
-	while(userPass != password) {
+	do {
 		printf("\nInforme a senha: ");
 		scanf("%d", &userPass);
-	}
-	printf("\nAcesso permitido\n");
+
+		if(userPass != password){
+			printf("\nSenha inválida\n");
+		}
+	} while(userPass != password);
+	printf("\nAcesso permitido\n\n");
 
 	return 0;
 }

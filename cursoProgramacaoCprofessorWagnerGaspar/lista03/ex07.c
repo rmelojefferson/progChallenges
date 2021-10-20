@@ -6,11 +6,9 @@ int main() {
 	printf("informe quantos números pares deseja saber a partir de 1: ");
 	scanf("%d", &num);
 
-	printf("Os primeiros %d números pares a partir de 1 são: 2", num);
-	for(i = 4; i <= num; i += 2) {
-		printf(", %d", i);
+	for(i = 2; i <= num; i += 2) {
+		printf("%d² = %d\n", i, i * i );
 	}
-	printf(".\n");
 	return 0;
 }
 

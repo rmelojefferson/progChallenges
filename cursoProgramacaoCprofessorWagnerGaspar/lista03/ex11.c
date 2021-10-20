@@ -4,7 +4,7 @@ int main() {
 	int i, tempo;
 	float massa, controle = 0.05;
 
-	printf("Informe a massa do material radiotivo em Kg (Utilize vírgula no lugar do ponto): ");
+	printf("Informe a massa do material radiotivo em gramas: ");
 	scanf("%f", &massa);
 
 	do {
