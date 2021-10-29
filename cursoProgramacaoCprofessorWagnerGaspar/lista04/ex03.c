@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-	int vet[20], i, j = 19, aux, aux2;
+	int vet[20], i, j = 19, aux;
 
 	for(i = 0; i < 20; i++) {
 		printf("Informe o %dº número: ", i + 1);
@@ -16,13 +16,12 @@ int main() {
 		
 	for(i = 0; i < 10; i++) {
 		aux = vet[i];
-		aux2 = vet[j];
-		vet[i] = aux2;
+		vet[i] = vet[j];
 		vet[j] = aux;
 		j--;
 	}
 
-	printf("\nVetor invertido:\n");
+	printf("\nVetor alterado:\n");
 	for(i = 0; i < 20; i++) {
 		printf("%d ", vet[i]);
 	}

@@ -1,33 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
-	int vet[100], i, j, aux;
+	int vet[100], i, validador, aux;
+
+	srand(time(NULL));
 
 	for(i = 0; i < 100; i++) {
-		printf("Informe o %dº número: ", i + 1);
-		scanf("%d", &vet[i]);
+		vet[i] = rand() % 500;
 	}
 
 	printf("\nVetor na ordem informada:\n");
 	for(i = 0; i < 100; i++) {
-		printf("%2d ", vet[i]);
+		printf("%3d ", vet[i]);
 	}
 	printf("\n");
 
-	for(i = 0; i < 100; i++) {
-		for(j = i + 1; j < 100; j++) {
-			if(vet[i] > vet[j]) {
+	do {
+		validador = 0;
+		for(i = 0; i < 99; i++) {
+			if(vet[i] > vet[i+1]) {
 				aux = vet[i];
-				vet[i] = vet[j];
-				vet[j] = aux;
+				vet[i] = vet[i+1];
+				vet[i+1] = aux;
+				validador = 1;
 			}
 		}
-	}
+	} while(validador);
 
 	printf("\nVetor ordenado:\n");
 	for(i = 0; i < 100; i++) {
-		printf("%2d ", vet[i]);
+		printf("%3d ", vet[i]);
 	}
 	printf("\n\n");
 

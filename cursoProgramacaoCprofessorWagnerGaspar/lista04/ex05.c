@@ -3,7 +3,7 @@
 
 int main() {
 	float temp[12];
-	int i, maior = 0, menor = 0;
+	int i, maior = 0, menor = 99;
 
 	for(i = 0; i < 12; i++) {
 		printf("Informe a temperatura do %dº mês do ano: ", i + 1);
@@ -57,40 +57,40 @@ int main() {
 	}
 	switch(menor) {
 		case 0:
-			printf("\nJaneiro foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nJaneiro foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 1:
-			printf("\nFevereiro foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nFevereiro foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 2:
-			printf("\nMarço foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nMarço foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 3:
-			printf("\nAbril foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nAbril foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 4:
-			printf("\nMaio foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nMaio foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 5:
-			printf("\nJunho foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nJunho foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 6:
-			printf("\nJulho foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nJulho foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 7:
-			printf("\nAgosto foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nAgosto foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 8:
-			printf("\nSetembro foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nSetembro foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 9:
-			printf("\nOutubro foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nOutubro foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 10:
-			printf("\nNovembro foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nNovembro foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 		case 11:
-			printf("\nDezembro foi o mês com a temperatura média mais alta.\nTemperatura média: %.2fCº\n", temp[menor]);
+			printf("\nDezembro foi o mês com a temperatura média mais baixa.\nTemperatura média: %.2fCº\n", temp[menor]);
 			break;
 	}
 	return 0;

@@ -6,7 +6,7 @@ int main() {
 
 	for(i = 0; i < 4; i++) {
 		for(j = 0; j < 4; j++) {
-			if(i - 1 == j) {
+			if(i > j) {
 				printf("%d ", mat[i][j]);
 			} else {
 				printf("  ");

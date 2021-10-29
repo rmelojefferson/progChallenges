@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
 	int mat[5][10], vet_linha[5], vet_coluna[10] = {0}, i, j, soma_linha = 0;
 
+	srand(time(NULL));
+
 	for(i = 0; i < 5; i++) {
 		for(j = 0; j < 10; j++) {
-			printf("Informe o valor da posição [%d][%d]: ", i, j);
-			scanf("%d", &mat[i][j]);
+			mat[i][j] = rand() % 100;
 		}
 	}
 	
@@ -23,7 +25,7 @@ int main() {
 	printf("\n");
 	for(i = 0; i < 5; i++) {
 		for(j = 0; j < 10; j++) {
-			printf("%d ", mat[i][j]);
+			printf("%2d ", mat[i][j]);
 		}
 		printf("\n");
 	}

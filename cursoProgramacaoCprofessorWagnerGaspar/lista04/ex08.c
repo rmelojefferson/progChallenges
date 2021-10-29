@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
 	int mat[5][7], i, j, soma = 0;
-
+	
+	srand(time(NULL));
 	for(i = 0; i < 5; i++) {
 		for(j = 0; j < 7; j++) {
-			printf("Informe o valor da posição [%d][%d]: ", i, j);
-			scanf("%d", &mat[i][j]);
+			mat[i][j] = rand() % 100;
 
 			soma += mat[i][j];
 		}

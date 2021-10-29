@@ -1,20 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
 	int mat[5][4], i, j;
 
+	srand(time(NULL));
+
 	for(i = 0; i < 5; i++) {
 		for(j = 0; j < 4; j++) {
-			printf("Informe o valor da posição [%d][%d]: ", i, j);
-			scanf("%d", &mat[i][j]);
+			mat[i][j] = rand() % 100;
 		}
 	}
 
-	printf("\nMatriz informada:\n");
+	printf("\nMatriz gerada:\n");
 	for(i = 0; i < 5; i++) {
 		for(j = 0; j < 4; j++) {
-			printf("%d ", mat[i][j]);
+			printf("%2d ", mat[i][j]);
 		}
 		printf("\n");
 	}
@@ -22,7 +24,7 @@ int main() {
 	printf("\nTransposta da matriz:\n");
 	for(i = 0; i < 4; i++) {
 		for(j = 0; j < 5; j++) {
-			printf("%d ", mat[j][i]);
+			printf("%2d ", mat[j][i]);
 		}
 		printf("\n");
 	}
