@@ -59,6 +59,8 @@
 
 - Faça um programa que, dado três valores a, b e c, verifique se eles podem ser os comprimentos dos lados de um triângulo. Caso positivo, seu programa deve informar também se o triângulo é equilátero, isósceles ou escaleno. Caso contrário, seu programa deve escrever a mensagem “Não formam um triângulo”. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/cursoProgramacaoCprofessorWagnerGaspar/lista02/ex10.c)
 
+</details>
+
 <details><summary>lista03</summary>
 
 - Elabore um programa em C para ler do teclado um valor inteiro entre 1 e 10 e apresentar a tabuada. Exemplo:
