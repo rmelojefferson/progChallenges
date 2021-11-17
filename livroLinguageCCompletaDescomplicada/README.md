@@ -277,13 +277,13 @@
   - !!!!!
   - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex15.c)
 - Elabore uma função que receba como parâmetro um valor inteiro n e gere como saída um triângulo lateral formado por asteriscos conforme o exemplo a seguir, em que n = 4
-  - #
-  - ##
-  - ###
-  - ####
-  - ###
-  - ##
-  - #
+  - @
+  - @@
+  - @@@
+  - @@@@
+  - @@@
+  - @@
+  - @
   - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex16.c)
 - Faça uma função que receba um inteiro N como parâmetro. Calcule e retorne o resultado da seguinte série S:
   - S = (2/4) + (5/5) + (10/6) + ... + (N² + 1) / (N + 3)
