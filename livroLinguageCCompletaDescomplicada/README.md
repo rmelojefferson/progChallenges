@@ -246,3 +246,58 @@
 - Crie uma enumeração representando os meses do ano. Agora, escreva um programa que leia um valor inteiro do teclado e exiba o nome do mês correspondente e quantos dias ele possui. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap08/ex13.c)
 
 </details>
+
+<details><summary>Capítulo 9</summary>
+
+- Escreva uma função que receba por parâmetro dois números e retorne o maio deles. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex01.c)
+- Faça uma função que receba um número inteiro de 1 a 12 e imprima em tela o mês e a sua quantidade de dias de acordo com o número digitado pelo usuário. Exemplo: Entrada = 4. Saída = abril. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex02.c)
+- Escreva uma função que receba por parâmetro uma temperatura em graus Fahrenheit e a retorne convertida em graus Celsius. A fórmula de conversão é: C = (F-32.0)*(5.0/9.0), sendo F a temperatura em Fahrenheit a C a temperatura em Celsius. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex03.c)
+- Escreva uma função que receba por parâmetro a altura e o raio de um cilindro circular e retorne o volume desse cilindro. O volume de um cilindro circular é calculado por meio das seguinte fórmula:
+  - V = pi * raio² * altura, em que pi = 3.141592.
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex04.c)
+- Escreva uma função para o cálculo do volume de uma esfera:
+  - V = 4/3pi*r³, em que pi = 3.141592 valor do raio r deve ser passado por parâmetro.
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex05.c)
+- Escreva uma função que receba o peso(quilos) e a altura(metros) de uma pessoa. Calcule e retorn o IMC(Índice de Massa Corporal) dessa pessoa:
+  - IMC = peso / (altura*altura).
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex06.c)
+- Elabore uma função que receba três números inteiros como parâmentro, representando horas, minutos e segundos. A função deve retornar esse horário convertido em segundos. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex07.c)
+- Elabore uma função para verificar se um número é um quadrado perfeito. Um quadrado perfeito é um número inteiro não negativo que pode ser expresso como o quadrado de outro número inteiro. Exemplos: 1, 4, 9. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex08.c)
+- Elabore uma função que receba três notas de um aluno como parâmetros e uma letra. Se a letra for "A", a função deverá calcular a média aritmética das notas do aluno; se for "P", deverá calcular a média ponderada, com pesos 5, 3 e 2. Retorne a média calculada para o programa principal. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex09.c)
+- Escreva uma função que receba dois valores numéricos e um símbolo. Esse símbolo representará a operação que se deseja efetuar com os números. Assim, se o símbolo for "+", deverá ser realizada uma adição, se for "-", um subtração, se for "/", um divisão, e, se for "*", será efetuada uma multiplicação. Retorne o resultado da operação para o programa principal. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex10.c)
+- Escreva uma função que receba por parâmentros dois valores inteiros x e y e calcule e retorne o resultado de x^y para o programa principal. Não use nenhum função pronta para isso. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex11.c)
+- Escreva uma função que receba um número inteiro positivo e retorne o maior fator primo desse número. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex12.c)
+- Escreva uma função que receba um número inteiro positivo n. Calcule e retorne o somatório de 1 até n: 1 + 2 + 3 + 4...+n [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex13.c)
+- Escreva uma função que receva um número inteiro positivo n. Calcule e retorne o seu fatorial n! = (n-1)*(n-2) [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex14.c)
+- Elabore uma função que receba como parâmetro um valor inteiro n e gere como saída n linhas com pontos de exclamação, conforme o exemplo a seguir, em que usamos n = 5:
+  - !
+  - !!
+  - !!!
+  - !!!!
+  - !!!!!
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex15.c)
+- Elabore uma função que receba como parâmetro um valor inteiro n e gere como saída um triângulo lateral formado por asteriscos conforme o exemplo a seguir, em que n = 4
+  - #
+  - ##
+  - ###
+  - ####
+  - ###
+  - ##
+  - #
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex16.c)
+- Faça uma função que receba um inteiro N como parâmetro. Calcule e retorne o resultado da seguinte série S:
+  - S = (2/4) + (5/5) + (10/6) + ... + (N² + 1) / (N + 3)
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex17.c)
+- Faça uma função que calcule e retorne o número neperiano e, e = 2,7182818284, usando a série a seguir:
+  - e = somatorio 1/n! = (1/0!)+(1/1!)+(1/2!)...
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex20.c)
+- Escreva uma função que, dado um número real passado como parâmetro, retorne a parte inteira e a parte fracionária desse número por referência. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex21.c)
+- Escreva uma função para o cálculo do volume e da área de uma esfera
+  - v = (4 * pi + r³)/3
+  - A = 4 * pi * r² 
+  - pi = 3.141592. 
+  - O valor do raio r deve ser passado por parâmetro, e os valores calculados devem ser retornados por referência.
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap09/ex22.c)
+
+</details>
+
