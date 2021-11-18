@@ -301,3 +301,17 @@
 
 </details>
 
+<details><summary>Capítulo 10</summary>
+
+- Escreva um programa que contenha duas variáveis inteiras. Compare seus endereços e exiba o maior endereço [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex01.c)
+- Crie um programa que contenh um array de float com 10 elementos. Imprima o endereço de cada posição desse array. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex03.c)
+- Crie um programa que contenha uma matriz de float com 3 linhas e 3 colunas. Imprima o endereço de cada posição desse array. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex04.c)
+- Crie um programa que contenha um array de inteiros com cinco elementos. Utilizando apenas aritmética de ponteiros, leia esse array do teclado e imprima o dobro de cada valor lido. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex05.c)
+- Crie um programa que contenha um array com cinco elementos inteiros. Leia esse array do teclado e imprima o endereço das posições contendo valores pares. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex06.c)
+- Elabore uma função que receba duas strings como parâmetros e verifique se a segunda string ocorre dentro da primeira. Use aritmética de ponteiros para acessar os caracteres das strings. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex07.c)
+- Crie uma função que receba dois parâmetros: um vetor e um valor do mesmo tipo do vetor. A função deverá preencher os elementos de vetor com esse valor. Não utilize índices para percorrer o vetor, apenas aritmética de ponteiros. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex09.c)
+- Considere a seguinte declaração: int A, *B, **C, ***D
+  - Escreva um programa que leia a variável A e calcule e exiba o dobro, o triplo e o quádruplo desse valor utilizando apenas os ponteiros B, C e D. O ponteiro B deve ser usada para calcular o dobro, C o triplo e D o quádruplo.
+  - [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap10/ex10.c)
+
+</details>
