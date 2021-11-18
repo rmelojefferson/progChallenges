@@ -238,3 +238,14 @@
 - Faça um programa para jogar o jogo da velha. Ao final imprima o resultado do jogo e pergunte se deseja jogar novamente. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/cursoProgramacaoCprofessorWagnerGaspar/lista04/ex16.c)
 
 </details>
+
+<details><summary>lista05</summary>
+
+- Escreva um procedimento que receba um vetor inteiro, seu tamanho e os endereços de duas variáveis inteiras, menor e maior, salve nestas variáveis o menor e o maior valor do vetor. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/cursoProgramacaoCprofessorWagnerGaspar/lista05/ex01.c)
+- Escreva um procedimento que troca os valores dos parâmetros recebidos. Sua assinatura deve ser: void troca(float *a, float *b) [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/cursoProgramacaoCprofessorWagnerGaspar/lista05/ex02.c)
+- Crie um programa que contenha um array de inteiros com 10 elementos. Imprima o elemento e o endereço de cada posição do array. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/cursoProgramacaoCprofessorWagnerGaspar/lista05/ex03.c)
+- Considere a seguinte declaração: int A, *B, **C, ***D
+  - Escreva um programa que leia a variável A e calcule e exiba o dobro, o triplo e o quádruplo desse valor utilizando apenas os ponteiros B, C e D. O ponteiro B deve ser usada para calcular o dobro, C o triplo e D o quádruplo. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/cursoProgramacaoCprofessorWagnerGaspar/lista05/ex04.c)
+- Implemente a função strcpy (char *destino, char *origem) usando ponteiros. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/cursoProgramacaoCprofessorWagnerGaspar/lista05/ex05.c)
+
+</details>
