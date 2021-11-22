@@ -1,4 +1,4 @@
-## Mini projetos feitos para estudar as linguagens e outras habilidades de desenvolvimento
+## Mini projetos/exercícios feitos para estudar as linguagens e outras habilidades de desenvolvimento
 
 ### Projetos propostos em livros ou em sites
 
