@@ -1,0 +1,5 @@
+Papel 5 30.00
+sabonete 4 2.00
+alcool 1 10.00
+manteiga 1 14.00
+arroz 1 25.00
