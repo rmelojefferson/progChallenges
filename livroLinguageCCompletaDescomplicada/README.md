@@ -335,6 +335,7 @@
 </details>
 
 <details><summary>Capítulo 12</summary>
+ 
 - Escreva um programa uqe leia do usuário o nome de um arquivo de texto. Em seguida, mostre na tela quantas linhas esse arquivo possui. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap12/ex01.c)
 - Escreva um programa que leia do usuário os nomes de dois arquivos texto. Crie um terceiro arquivo texto com o conteúdo dos dois primeiros juntos(o conteúdo do primeiro seguido do conteúdo do segundo). [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap12/ex02.c)
 - Escreva um programa para converter o conteúdo de um arquivo texto em caracteres maiúsculos. O programa deverá ler do usuário o nome do arquivo a ser convertido e o nome do arquivo a ser salvo. [Exercício](https://github.com/rmelojefferson/progChallenges/blob/main/livroLinguageCCompletaDescomplicada/cap12/ex03.c)
