@@ -16,3 +16,7 @@
 - [cursoProgramacaoCprofessorWagnerGaspar](https://github.com/rmelojefferson/progChallenges/tree/main/cursoProgramacaoCprofessorWagnerGaspar)
   - Respostas dos exercícios propostos no curso - Curso de programação C completo
 
+- [build_your_own_lisp](https://github.com/rmelojefferson/progChallenges/tree/main/build_your_own_lisp)
+  - Projeto de construção de uma linguagem Lisp com o proposito de estudar a linguagem C
+  	- O projeto é feito em cima do conteúdo do livro [BuildYourOwnLisp](https://github.com/orangeduck/BuildYourOwnLisp)
+
